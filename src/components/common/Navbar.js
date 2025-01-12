@@ -58,7 +58,6 @@ export default function Navbar({ scrollTo }) {
         </div>
       </div>
 
-      {/* Mobile Navigation Menu */}
       <AnimatePresence>
         {isMenuOpen && (
           <motion.div 
