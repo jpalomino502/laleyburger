@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Menu as MenuIcon, X } from 'lucide-react'
 import { motion, AnimatePresence } from 'framer-motion'
-import logoImage from '../../assets/logo.webp'  // Importa el logo
+import logoImage from '../../assets/logo.webp'
 
 export default function Navbar({ scrollTo }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -27,7 +27,6 @@ export default function Navbar({ scrollTo }) {
             />
           </motion.div>
           
-          {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             {['inicio', 'menu', 'ubicaciones'].map((section, index) => (
               <motion.a 
