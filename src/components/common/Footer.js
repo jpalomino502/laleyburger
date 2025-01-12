@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Phone, Instagram, Facebook } from 'react-feather'; // Asegúrate de tener estos iconos instalados
+import { Phone, Instagram, Facebook } from 'react-feather';
 
 const Footer = () => {
   return (
